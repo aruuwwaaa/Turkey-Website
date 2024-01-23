@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../work/jihc-todolist"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "jihc-todolist"
+  }
+}

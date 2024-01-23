@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+
+  .container {
+    max-width: 1368px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+  
+
+
+
+
+.why {
+    padding: 56px 0px;
+    background: rgba(250, 232, 221, 0.88);
+    text-align: center;
+    /* .why__title */
+    /* .why__container */
+    /* .why__column */
+    /* .why__image */
+    /* .why__block */
+    /* .why__icon */
+    /* .why__section */
+    /* .why__text */
+  }
+  .why__title {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 64px;
+    line-height: 87.17px;
+    margin: 0px 0px 70px 0px;
+  }
+  .why__container {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .why__column {
+    flex: 1 1 33.3333%;
+  }
+  .why__column:nth-child(1) .why__image {
+    margin-bottom: 177px;
+  }
+  .why__column:nth-child(2) {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  .why__column:nth-child(3) .why__block {
+    margin: 0px 0px 137px 0px;
+  }
+  .why__image img {
+    border-radius: 30px;
+    max-width: 100%;
+  }
+  .why__block {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .why__icon img {
+    max-width: 100%;
+  }
+  .why__section {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+  }
+  .why__text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+  }
+  
+  .interesting {
+    padding: 120px 0px;
+    background: rgba(250, 232, 221, 0.88);
+    /* .interesting__title */
+    /* .interesting__container */
+    /* .interesting__column */
+    /* .interesting__text */
+    /* .interesting__buttons */
+    /* .interesting__bullets */
+    /* .interesting__image */
+  }
+  .interesting__title {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 40px;
+  }
+  .interesting__container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+  }
+  .interesting__column {
+    flex: 1 1 50%;
+  }
+  .interesting__column:last-child {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+  }
+  .interesting__text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+  .interesting__text:first-child {
+    margin-bottom: 20px;
+    margin-top: 35px;
+  }
+  .interesting__buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 40px;
+    width: 300px;
+    justify-content: space-between;
+  }
+  .interesting__image {
+    display: inline-block;
+  }
+  .interesting__image img {
+    max-width: 100%;
+    border-radius: 30px;
+  }
+  .bullets {
+    width: 70px;
+    justify-content: space-between;
+    align-self: center;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .bullets li {
+    display: inline-block;
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    border: 3px solid #000;
+    border-radius: 50%;
+  }
+  .bullets li:first-child {
+    background: #000;
+  }
+  
+  .l-arrow {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border: 5px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .l-arrow span {
+    position: absolute;
+    top: 37px;
+    left: 13px;
+    width: 30px;
+    height: 5px;
+    border-radius: 70px;
+    background: #000;
+    transform: rotate(45deg);
+  }
+  .l-arrow span:last-child {
+    transform: rotate(-45deg);
+    top: 18px;
+  }
+  .l-arrow:hover {
+    background-color: #dddddd;
+  }
+  
+  .r-arrow {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border: 5px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .r-arrow span {
+    position: absolute;
+    top: 37px;
+    left: 18px;
+    width: 30px;
+    height: 5px;
+    border-radius: 70px;
+    background: #000;
+    transform: rotate(-45deg);
+  }
+  .r-arrow span:last-child {
+    transform: rotate(45deg);
+    top: 18px;
+  }
+  .r-arrow:hover {
+    background-color: #dddddd;
+  }
+  
